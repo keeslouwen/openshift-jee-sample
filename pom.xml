@@ -41,8 +41,20 @@
                     <failOnMissingWebXml>false</failOnMissingWebXml>
                     <outputDirectory>target</outputDirectory>
               		  <jarName>sampleapp</jarName>
+                    <archive>
+                        <manifest>
+                            <addClasspath>true</addClasspath>
+                            <classpathPrefix>lib/</classpathPrefix>
+                            <mainClass>com.mypackage.MyClass</mainClass>
+                        </manifest>
+                    </archive>            
                 </configuration>
             </plugin>
+            <build>
+      </configuration>
+    </plugin>
+  </plugins>
+</build>
         </plugins>
       </build>
     </profile>
