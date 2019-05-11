@@ -49,10 +49,8 @@
                         </manifest>
                     </archive>            
                 </configuration>
-    </plugin>
-  </plugins>
-</build>
-        </plugins>
+             </plugin>
+         </plugins>
       </build>
     </profile>
   </profiles>
