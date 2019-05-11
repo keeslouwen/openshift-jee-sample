@@ -49,9 +49,6 @@
                         </manifest>
                     </archive>            
                 </configuration>
-            </plugin>
-            <build>
-      </configuration>
     </plugin>
   </plugins>
 </build>
